@@ -12,4 +12,6 @@ public interface UserRepository extends MongoRepository<User, ObjectId> {
     //since this inbuilt repository doesn't contain the find by username method we are creating it manually to use it
     //further in service and controller
     User findByUserName(String username);//find by the field name(username)
+
+    void deleteByUserName(String username);
 }

@@ -15,7 +15,6 @@ import java.util.List;
 //@Getter
 //@Setter
 @Data
-@NoArgsConstructor
 public class User {
 
     @Id
@@ -28,4 +27,6 @@ public class User {
 
     @DBRef //we must use this annotation to let the jvm know that the list we created will keep the reference of entries in journal_entries
     private List<JournalEntry> journalEntries = new ArrayList<>(); // List of Journal Entries
+
+    private List<String> roles;
 }
