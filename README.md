@@ -1,1 +1,1 @@
-This project is on going at the moment. I am learning and implementing spring boot framework through this project.
+Journal application project is the showcase of Java springboot framework. It simply contains the CRUD operations, database integration(mongoDB) and some security configuration.
